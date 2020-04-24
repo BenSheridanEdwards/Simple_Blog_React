@@ -10,7 +10,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="ui container" data-test="component-app">App </div>
+      <div className="ui container" data-test="component-app">App</div>
     );
   };
 }
