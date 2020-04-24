@@ -1,12 +1,12 @@
-# Project Name
+# Simple Blog
 
 [Description](#description) | [User Stories](#user-stories) | [Mockups](#mockups) | [Application Showcase](#app-showcase) | [Installation Instructions](#installation)
 
 ## <a name="description">Description</a>
 
-Description here...
+A simple blog app built with TDD using React, Redux, Jest and Enzyme.
 
-*Tech Stack: JavaScript, React, Node, CSS, HTML, Jest, Enzyme, Webpack, Babel, CircleCI, Firebase*
+*Tech Stack: JavaScript, React, Redux, Node, CSS, HTML, Jest, Enzyme, Webpack, Babel, CircleCI, Firebase*
 
 You'll find the app deployed [here](link). Open in a new tab by clicking whilst holding cmd/window.
 
@@ -33,8 +33,8 @@ You'll find the app deployed [here](link). Open in a new tab by clicking whilst 
 Clone this repository from github then change directory into it.
 
 ```
-$ git clone git@github.com:BenSheridanEdwards/Repo_Name_Here.git
-$ cd Repo_Name_Here
+$ git clone git@github.com:BenSheridanEdwards/Simple_Blog_React.git
+$ cd Simple_Blog_React
 ```
 
 From inside the React project, you can run `npm start` in the terminal to launch the app in the browser.
