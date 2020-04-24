@@ -9,9 +9,8 @@ class App extends Component {
   }
 
   render() {
-
     return (
-      <div data-test="component-app"></div>
+      <div className="ui container" data-test="component-app">App </div>
     );
   };
 }
