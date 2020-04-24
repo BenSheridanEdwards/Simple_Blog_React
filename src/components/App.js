@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PostList from './PostList'
 
 class App extends Component {
   constructor(props) {
@@ -10,7 +11,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="ui container" data-test="component-app">App</div>
+      <div className="ui container" data-test="component-app"><PostList /></div>
     );
   };
 }
