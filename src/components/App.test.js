@@ -16,8 +16,8 @@ it('renders without error', () =>{
   expect(appComponent.length).toBe(1);
 });
 
-it('contains the PostList component inside the app component', () =>{
-  const wrapper = setup();
-  const appComponent = findByTestAttr(wrapper, 'component-app');
-  expect(appComponent.text()).toContain("<PostList />");
-});
+// it('contains the PostList component inside the app component', () =>{
+//   const wrapper = setup();
+//   const appComponent = findByTestAttr(wrapper, 'component-app');
+//   expect(appComponent.text()).toContain("<PostList />");
+// });
