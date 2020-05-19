@@ -9,7 +9,7 @@ class UserHeader extends Component {
 
   render() {
     const { user } = this.props;
-    
+
     if (!user) {
       return null;
     }
