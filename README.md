@@ -18,11 +18,7 @@ You'll find the app deployed [here](link). Open in a new tab by clicking whilst 
 
 ## <a name="mockups">Mockups</a>
 
-![Initial State Mockup]()
-
-![Intermediate State Mockup]()
-
-![Final State Mockup]()
+![Mockup](https://github.com/BenSheridanEdwards/Simple_Blog_React/blob/master/Images/Mockups/Mockup-PostList.png)
 
 ## <a name="app-showcase">Application Showcase</a>
 
