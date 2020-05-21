@@ -8,7 +8,7 @@ A simple blog app built using React, Redux, Jest and Enzyme.
 
 **Tech Stack:** *JavaScript, React, Redux, Node, CSS, Semantic UI, HTML, Jest, Enzyme, Webpack, Babel, CircleCI, Code Climate, Firebase*
 
-You'll find the app deployed [here](link). Open in a new tab by clicking whilst holding cmd/window.
+You'll find the app deployed [here](https://simple-blog-react-fb7e3.web.app/). Open in a new tab by clicking whilst holding cmd/window.
 
 ## <a name="user-stories">User Stories</a>
 
