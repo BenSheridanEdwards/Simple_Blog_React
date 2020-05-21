@@ -22,7 +22,7 @@ You'll find the app deployed [here](link). Open in a new tab by clicking whilst 
 
 ## <a name="app-showcase">Application Showcase</a>
 
-![Application Screenrecording]()
+![Application Screenrecording](https://github.com/BenSheridanEdwards/Simple_Blog_React/blob/master/Images/Showcase/SimpleBlog-AppShowcase.gif)
 
 ## <a name="installation">Installation Instructions</a>
 
