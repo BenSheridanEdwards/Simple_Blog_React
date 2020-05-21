@@ -20,7 +20,6 @@ I expect to see a list of posts.
 ```
 As a user of Simple Blog, when I startup the app,
 I expect to be able to like posts I find interesting. 
-
 ```
 
 ## <a name="mockups">Mockups</a>
