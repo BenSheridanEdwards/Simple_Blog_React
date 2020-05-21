@@ -11,9 +11,9 @@ class UserHeader extends Component {
     }
 
     return (
-      <div className="header">
+      <span>
         {user.name}
-      </div>
+      </span>
     )
   };
 };
