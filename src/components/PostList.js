@@ -12,16 +12,29 @@ class PostList extends React.Component {
   renderList() {
     return this.props.posts.map(post => {
       return (
-        <div className="item" key={post.id}>
-          <i className="large middle aligned icon user" />
-          <div className="content">
-            <div className="description">
-              <h2>{post.title}</h2>
-              <p>{post.body}</p>
-            </div>
-            <UserHeader userId={post.userId} />
-          </div>
-        </div>
+
+  <div class="ui card" style={{ width: '100%', background: '#ffaaab'}} key={post.id}>
+    <div class="content">
+      <i class="right floated like icon"></i>
+      <div class="header">
+        <h2 style={{ textColor: '#2F1728'}}>{post.title}</h2>
+      </div>
+      <div class="description">
+        <p>{post.body}</p>
+      </div>
+    </div>
+    <div class="extra content">
+      <span class="left floated like">
+      <i class="like icon"></i>
+      </span>
+      <span class="left floated like" style={{ color: '#fff5d7'}}>
+        Like
+      </span>
+      <span class="right floated" style={{ color: '#fff5d7'}}>
+        Post by <UserHeader userId={post.userId}/>  
+      </span>
+    </div>
+  </div>
       )
     })
   }
