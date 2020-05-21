@@ -11,7 +11,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="ui container" data-test="component-app">
+      <div className="ui container" style={{ padding: '75px'}} data-test="component-app">
         <PostList />
       </div>
     );
