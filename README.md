@@ -4,7 +4,7 @@
 
 ## <a name="description">Description</a>
 
-A simple blog app built with TDD using React, Redux, Jest and Enzyme.
+A simple blog app built using React, Redux, Jest and Enzyme.
 
 *Tech Stack: JavaScript, React, Redux, Node, CSS, HTML, Jest, Enzyme, Webpack, Babel, CircleCI, Firebase*
 
