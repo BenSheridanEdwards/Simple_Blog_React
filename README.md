@@ -15,7 +15,9 @@ You'll find the app deployed [here](link). Open in a new tab by clicking whilst 
 ```
 As a user of Simple Blog, when I startup the app,
 I expect to see a list of posts. 
+```
 
+```
 As a user of Simple Blog, when I startup the app,
 I expect to be able to like posts I find interesting. 
 
