@@ -1,5 +1,7 @@
 # Simple Blog
 
+[![CircleCI](https://circleci.com/gh/BenSheridanEdwards/Simple_Blog_React.svg?style=svg)](https://circleci.com/gh/BenSheridanEdwards/Simple_Blog_React)
+
 [Description](#description) | [User Stories](#user-stories) | [Mockups](#mockups) | [Application Showcase](#app-showcase) | [Installation Instructions](#installation)
 
 ## <a name="description">Description</a>
