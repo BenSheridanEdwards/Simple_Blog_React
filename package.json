@@ -1,13 +1,11 @@
 {
-  "name": "jotto",
+  "name": "blog",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "axios": "^0.19.2",
-    "lodash": "^4.17.15",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
@@ -43,8 +41,8 @@
     "check-props": "^2.1.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
-    "firebase-tools": "^8.1.1",
-    "jest": "^25.4.0",
+    "firebase-tools": "^8.4.0",
+    "jest": "^25.5.4",
     "jest-enzyme": "^7.1.2"
   },
   "jest": {
