@@ -2,7 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/BenSheridanEdwards/Simple_Blog_React.svg?style=svg)](https://circleci.com/gh/BenSheridanEdwards/Simple_Blog_React)
 
-[Description](#description) | [User Stories](#user-stories) | [Mockups](#mockups) | [Application Showcase](#app-showcase) | [Installation Instructions](#installation)
+[Description](#description) | [User Stories](#user-stories) | [Mockups](#mockups) | [App Showcase](#app-showcase) | [Features](#features) | [Improvements](#improvements) | [Installation Instructions](#installation) | [Credits](#credits)
 
 ## <a name="description">Description</a>
 
@@ -36,6 +36,8 @@ I expect to be able to like posts I find interesting.
 
 - See global data for those infected and those who have died from COVID-19
 - Select a country, and see its data for the number of infected cases, the number of cases of people who have recovered and the number of people who have died from COVID-19 
+
+### <a name="improvements">Improvements</a>
 
 ## <a name="installation">Installation Instructions</a>
 
