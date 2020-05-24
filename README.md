@@ -2,7 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/BenSheridanEdwards/Simple_Blog_React.svg?style=svg)](https://circleci.com/gh/BenSheridanEdwards/Simple_Blog_React)
 
-[Description](#description) | [User Stories](#user-stories) | [Mockups](#mockups) | [Application Showcase](#app-showcase) | [Installation Instructions](#installation)
+[Description](#description) | [User Stories](#user-stories) | [Mockups](#mockups) | [App Showcase](#app-showcase) | [Features](#features) | [Improvements](#improvements) | [Installation Instructions](#installation) | [Credits](#credits)
 
 ## <a name="description">Description</a>
 
@@ -32,6 +32,13 @@ I expect to be able to like posts I find interesting.
 
 ![Application Screenrecording](https://github.com/BenSheridanEdwards/Simple_Blog_React/blob/master/Images/Showcase/SimpleBlog-AppShowcase.gif)
 
+### <a name="features">Features</a>
+
+- See global data for those infected and those who have died from COVID-19
+- Select a country, and see its data for the number of infected cases, the number of cases of people who have recovered and the number of people who have died from COVID-19 
+
+### <a name="improvements">Improvements</a>
+
 ## <a name="installation">Installation Instructions</a>
 
 Clone this repository from github then change directory into it.
@@ -41,14 +48,38 @@ $ git clone git@github.com:BenSheridanEdwards/Simple_Blog_React.git
 $ cd Simple_Blog_React
 ```
 
+### Launching the App from the Command Line
+
 From inside the React project, you can run `npm start` in the terminal to launch the app in the browser.
 
 ```
 $ npm start
 ```
 
-Launching the app from the command line should open up a new tab in your default browser. If it doesn't, you can navigate to [http://localhost:3000](http://localhost:3000) to view the application.<br />
+Launching the app from the command line should open up a new tab in your default browser. If it doesn't, you can navigate to [http://localhost:3000](http://localhost:3000) to view the application.
 
-### Credit
+### Running Tests
+
+From inside the React project, you can run `npm start` in the terminal to run the test suite. 
+
+```
+$ npm test
+```
+
+### Seeing Test Coverage
+
+From inside the React project, you can run 'npm test -- --coverage' in the terminal to see the code coverage for this project.
+
+```
+$ npm test -- --coverage
+```
+
+## <a name="credits">Credits</a>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This project was tested with [Jest](https://jestjs.io/) & [Enzyme](https://enzymejs.github.io/enzyme/). 
+
+This project uses continuous integration and deployment with [CircleCI](https://circleci.com/) & [Firebase](https://firebase.google.com/).
+
+This project utilises [Code Climate](https://codeclimate.com/) to ensure high code quality.
