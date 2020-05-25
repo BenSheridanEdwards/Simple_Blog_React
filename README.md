@@ -24,11 +24,11 @@ I expect to be able to like posts I find interesting.
 
 ## <a name="mockups">Mockups</a>
 
-![Mockup](https://github.com/BenSheridanEdwards/Simple_Blog_React/blob/master/Images/Mockups/Mockup-PostList.png)
+![Mockup](https://github.com/BenSheridanEdwards/Simple_Blog_React/blob/master/images/Mockups/Mockup-PostList.png)
 
 ## <a name="app-showcase">Application Showcase</a>
 
-![Application Screenrecording](https://github.com/BenSheridanEdwards/Simple_Blog_React/blob/master/Images/Showcase/SimpleBlog-AppShowcase.gif)
+![Application Screenrecording](https://github.com/BenSheridanEdwards/Simple_Blog_React/blob/master/images/Showcase/SimpleBlog-AppShowcase.gif)
 
 ## <a name="installation">Installation Instructions</a>
 
