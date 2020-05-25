@@ -39,14 +39,39 @@ $ git clone git@github.com:BenSheridanEdwards/Simple_Blog_React.git
 $ cd Simple_Blog_React
 ```
 
-From inside the React project, you can run `npm start` in the terminal to launch the app in the browser.
+### Launching the Application from the Command Line
+
+From inside the project folder, you can run `yarn start` in the terminal to launch the app in the browser.
 
 ```
-$ npm start
+$ yarn start
 ```
 
-Launching the app from the command line should open up a new tab in your default browser. If it doesn't, you can navigate to [http://localhost:3000](http://localhost:3000) to view the application.<br />
+Launching the app from the command line should open up a new tab in your default browser. If it doesn't, you can navigate to [http://localhost:3000](http://localhost:3000) to view the application.
 
-### Credit
+### Running Tests
+
+From inside the project folder, you can run `yarn test` in the terminal to run the test suite. 
+
+```
+$ yarn test
+```
+
+### Seeing Test Coverage
+
+From inside the project folder, you can run 'yarn test -- --coverage' in the terminal to see the code coverage for this project.
+
+```
+$ yarn test -- --coverage
+```
+
+### <a name="credits">Credits</a>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This project was tested with [Jest](https://jestjs.io/) & [Enzyme](https://enzymejs.github.io/enzyme/). 
+
+This project uses continuous integration and deployment with [CircleCI](https://circleci.com/) & [Firebase](https://firebase.google.com/).
+
+This project utilises [Code Climate](https://codeclimate.com/) to ensure high code quality.
+
