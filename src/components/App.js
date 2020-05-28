@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PostList from './PostList'
-import './App.css'
+import styles from './App.module.css'
 
 class App extends Component {
   constructor(props) {
@@ -12,9 +12,9 @@ class App extends Component {
 
   render() {
     return (
-      <div style={{ background: '#fff5d7'}}>
-        <div className="ui container" style={{ padding: '25px'}} data-test="component-app">
-          <h1 style={{ fontFamily: 'Pacifico', textAlign: "center", paddingBottom: '20px'}}>Simple Blog</h1>
+      <div className={styles.body} data-test="component-app">
+        <div className="ui container" style={{ padding: '25px'}}>
+          <h1 className={styles.header} data-test="app-header">Simple Blog</h1>
           <PostList />
         </div>
       </div>
