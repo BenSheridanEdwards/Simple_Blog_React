@@ -10,14 +10,14 @@ const setup = (props={}, state=null) => {
     return wrapper;
 }
 
-it('renders without error', () =>{
+it('renders app component without error', () =>{
   const wrapper = setup();
   const appComponent = findByTestAttr(wrapper, 'component-app');
   expect(appComponent.length).toBe(1);
 });
 
-// it('contains the PostList component inside the app component', () =>{
-//   const wrapper = setup();
-//   const appComponent = findByTestAttr(wrapper, 'component-app');
-//   expect(appComponent.text()).toContain("<PostList />");
-// });
+it("renders a header with the text 'Simple Blog'", () => {
+  const wrapper = setup();
+  const header = findByTestAttr(wrapper, 'app-header');
+  expect(header.text()).toMatch('Simple Blog')
+})
