@@ -13,13 +13,6 @@ const setup = (initialState={}) => {
   return wrapper
 }
 
-// it('renders the post list component without error', () => {
-//   const initialState = { posts: [] };
-//   const wrapper = setup(initialState)
-//   const postListComponent = findByTestAttr(wrapper, 'component-post-list')
-//   expect(postListComponent.length).toBe(1)
-// })
-
 it('does not throw warning with expected props', () => {
   const expectedProps = { posts: [] };
   checkProps(PostList, expectedProps)
