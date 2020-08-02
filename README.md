@@ -1,6 +1,9 @@
 # Simple Blog
 
-[Description](#description) | [User Stories](#user-stories) | [Mockups](#mockups) | [Application Showcase](#app-showcase) | [Installation Instructions](#installation)
+[![CircleCI](https://circleci.com/gh/BenSheridanEdwards/Simple_Blog_React.svg?style=svg)](https://circleci.com/gh/BenSheridanEdwards/Simple_Blog_React)
+[![Maintainability](https://api.codeclimate.com/v1/badges/ec76cf470543811920b8/maintainability)](https://codeclimate.com/github/BenSheridanEdwards/Simple_Blog_React/maintainability)
+
+[Description](#description) | [User Stories](#user-stories) | [Mockups](#mockups) | [App Showcase](#app-showcase) | [Features](#features) | [Improvements](#improvements) | [Installation Instructions](#installation) | [Credits](#credits)
 
 ## <a name="description">Description</a>
 
@@ -29,6 +32,20 @@ I expect to be able to like posts I find interesting.
 ## <a name="app-showcase">Application Showcase</a>
 
 ![Application Screenrecording](https://github.com/BenSheridanEdwards/Simple_Blog_React/blob/master/images/Showcase/SimpleBlog-AppShowcase.gif)
+
+### <a name="features">Features</a>
+
+- Displays a list of posts from an API
+
+### <a name="improvements">Improvements & Bugs</a>
+
+#### Improvements
+
+- Like button not linked up to each individual post
+  - Need to find a way to add a 'liked' property to each post or make a POST request to add the like data to the API. 
+
+#### Bugs
+
 
 ## <a name="installation">Installation Instructions</a>
 
